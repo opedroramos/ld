@@ -35,9 +35,11 @@ h3.cor{
 #som{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 20px auto;
     align-items: center;
     background-color: white;
+    max-width: 1095px;
+    padding: 8px;
 }
 #img{
     width: 60px;
@@ -128,9 +130,11 @@ p{
     #som{
         display: flex;
         justify-content: center;
-        margin-bottom: 13.3px;
+        margin: 20px auto;
         align-items: center;
         background-color: white;
+        max-width: 1095px;
+        padding: 8px;
     }
     #img{
         width: 40px;
