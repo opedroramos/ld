@@ -9,10 +9,38 @@
 body{
     background: url(imagem/bg.jpg);
 }
+p#black{
+    color: black;
+    margin-left: 10px;
+}
+#disppai{
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+    background-color: red;
+    flex-direction: row;
+    padding: 10px;
+}
+#disp{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+}
 #container{
     width: 90%;
-    margin: 40px auto;
+    margin: 0px auto;
     padding: 20px;
+    min-width: 300px;
+}
+#confpai{
+    display: flex;
+    justify-content: center;
+}
+#conf{
+    width: 600px;
 }
 #h3pai{
     padding: 20px;
@@ -52,18 +80,18 @@ h3.cor{
 #videopai{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
-#video {
+#video{
     aspect-ratio: calc(16 / 9);
     width: 1095px;
     border-bottom: 4px solid black;
-
 }
 #botaopai{
-    padding: 20px;
     max-width: 1095px;
     margin: 0px auto;
     text-align: center;
+    width: 100%;
 }
 #botao{
     background-color: red;
@@ -83,6 +111,7 @@ h3.cor{
     justify-content: center;
     padding: 13.3px;
     text-align: center;
+    margin-bottom: 20px;
 }
 #termo{
     font-size: 25px;
@@ -103,11 +132,47 @@ p{
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
+#provapai{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#prova{
+    min-width: 300px;
+}
 @media only screen and (max-width: 700px) {
+    p#black{
+        color: black;
+        margin-left: 5px;
+    }
+    #disppai{
+        display: flex;
+        justify-content: center;
+        min-width: 320px;
+        background-color: red;
+        flex-direction: row;
+        padding: 5px;
+    }
+    #disp{
+        font-size: 16.6px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        display: flex;
+    }
     #container{
         width: 90%;
-        margin: 26.6px auto;
-        padding: 13.3px;
+        margin: 0px auto;
+        padding: 10px;
+        min-width: 300px;
+    }
+    #confpai{
+        display: flex;
+        justify-content: center;
+    }
+    #conf{
+        width: 300px;
     }
     #h3pai{
         padding: 13.3px;
@@ -148,17 +213,16 @@ p{
         display: flex;
         justify-content: center;
     }
-    #video {
+    #video{
         aspect-ratio: calc(16 / 9);
         width: 1095px;
         border-bottom: 2.6px solid black;
-    
+        margin-bottom: 10px;
     }
     #botaopai{
-        padding: 13.3px;
-        width: 80%;
         margin: 0px auto;
         text-align: center;
+        width: 100%;
     }
     #botao{
         background-color: red;
@@ -178,6 +242,7 @@ p{
         justify-content: center;
         padding: 13.3px;
         text-align: center;
+        margin-bottom: 10px;
     }
     #termo{
         font-size: 16.6px;
@@ -197,5 +262,13 @@ p{
         font-family: "M";
         color: rgb(255, 255, 255);
         font-weight: bold;
+    }
+    #provapai{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #prova{
+        min-width: 300px;
     }
 }
