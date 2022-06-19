@@ -139,6 +139,8 @@ p{
 }
 #prova{
     min-width: 300px;
+    margin-bottom: 20px;
+
 }
 @media only screen and (max-width: 700px) {
     p#black{
@@ -267,6 +269,7 @@ p{
         display: flex;
         justify-content: center;
         width: 100%;
+        margin-bottom: 10px;
     }
     #prova{
         min-width: 300px;
