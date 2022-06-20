@@ -34,6 +34,7 @@ p#black{
     margin: 0px auto;
     padding: 20px;
     min-width: 300px;
+    border: 1px solid red;
 }
 #confpai{
     display: flex;
@@ -135,11 +136,24 @@ p{
 #provapai{
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 1095px;
+    background-color: #ffffff;
+    margin: 0px auto;
+
 }
-#prova{
-    min-width: 300px;
-    margin-bottom: 20px;
+.prov{
+
+}
+.nome{
+
+}
+.imgc{
+    width: 60px;
+}
+.comentario{
+
+}
+.like{
 
 }
 @media only screen and (max-width: 700px) {
@@ -265,13 +279,5 @@ p{
         color: rgb(255, 255, 255);
         font-weight: bold;
     }
-    #provapai{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    #prova{
-        min-width: 300px;
-    }
+
 }
