@@ -26,7 +26,6 @@ p#black{
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
-    font-weight: bold;
     display: flex;
 }
 #container{
@@ -34,7 +33,6 @@ p#black{
     margin: 0px auto;
     padding: 20px;
     min-width: 300px;
-    border: 1px solid red;
 }
 #confpai{
     display: flex;
@@ -64,7 +62,7 @@ h3.cor{
 #som{
     display: flex;
     justify-content: center;
-    margin: 20px auto;
+    margin: 10px auto;
     align-items: center;
     background-color: white;
     max-width: 1095px;
@@ -104,6 +102,7 @@ h3.cor{
     font-family: "M";
     border-radius: 8px;
     display: none;
+    font-weight: bold;
 }
 
 #rodape{
@@ -119,42 +118,68 @@ h3.cor{
     font-family: "M";
     color: rgb(255, 255, 255);
     font-weight: bold;
+    margin-right: 10px;
 }
 #privacidade{
     font-size: 25px;
     font-family: "M";
     color: rgb(255, 255, 255);
     font-weight: bold;
+    margin-left: 10px;
 }
 p{
     font-size: 25px;
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
-    font-weight: bold;
 }
 #provapai{
     display: flex;
-    justify-content: center;
-    max-width: 1095px;
+    justify-content: initial;
+    max-width: 1075px;
     background-color: #ffffff;
     margin: 0px auto;
-
+    flex-direction: column;
+    padding: 10px;
+    min-width: 300px;
 }
-.prov{
-
+#comentariopai{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: initial;
+    margin: 20px;
 }
-.nome{
-
+.bloco{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: row;
 }
 .imgc{
     width: 60px;
+    margin-left: 20px;
+}
+.prov{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.nome{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #365899;
 }
 .comentario{
-
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: initial;
 }
 .like{
-
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
 }
 @media only screen and (max-width: 700px) {
     p#black{
@@ -174,7 +199,6 @@ p{
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
-        font-weight: bold;
         display: flex;
     }
     #container{
@@ -211,7 +235,7 @@ p{
     #som{
         display: flex;
         justify-content: center;
-        margin: 20px auto;
+        margin: 5px auto;
         align-items: center;
         background-color: white;
         max-width: 1095px;
@@ -250,6 +274,7 @@ p{
         font-family: "M";
         border-radius: 5.3px;
         display: none;
+        font-weight: bold;
     }
     
     #rodape{
@@ -265,19 +290,68 @@ p{
         font-family: "M";
         color: rgb(255, 255, 255);
         font-weight: bold;
+        margin-right: 5px;
     }
     #privacidade{
         font-size: 16.6px;
         font-family: "M";
         color: rgb(255, 255, 255);
         font-weight: bold;
+        margin-left: 5px;
     }
     p{
         font-size: 16.6px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
-        font-weight: bold;
+    }
+    #provapai{
+        display: flex;
+        justify-content: initial;
+        max-width: 1075px;
+        background-color: #ffffff;
+        margin: 0px auto;
+        flex-direction: column;
+        padding: 5px;
+        min-width: 300px;
+    }
+    #comentariopai{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-weight: initial;
+        margin: 10px;
+    }
+    .bloco{
+        display: flex;
+        width: 100%;
+        margin-bottom: 10px;
+        flex-direction: row;
+    }
+    .imgc{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .prov{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .nome{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #365899;
+    }
+    .comentario{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-weight: initial;
+    }
+    .like{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666666;
     }
 
 }
