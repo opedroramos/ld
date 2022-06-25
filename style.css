@@ -86,6 +86,7 @@ h3.cor{
     aspect-ratio: calc(16 / 9);
     width: 1095px;
     border-bottom: 4px solid black;
+    border-radius: 20px;
 }
 #atencaoo{
     display: flex;
@@ -109,7 +110,7 @@ h3.cor{
     border-bottom: 4px solid black;
     font-size: 30px;
     font-family: "M";
-    border-radius: 8px;
+    border-radius: 16px;
     display: none;
     font-weight: bold;
     margin-bottom: 40px;
@@ -161,6 +162,42 @@ h3.cor{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
+}
+.titlebb{
+    margin-top: 20px;
+    color: #00FF48;
+}
+#beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    min-width: 300px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.conteudo1{
+    background-color: white;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgb{
+    width: 180px;
+}
+.benefi{
+    color: #00B333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.benef{
+    color: #00B333;
+    font-size: 16px;
 }
 #rodape2{
     display: flex;
@@ -307,6 +344,7 @@ p{
         aspect-ratio: calc(16 / 9);
         width: 1095px;
         border-bottom: 2.6px solid black;
+        border-radius: 10px;
     }
     #botaopai{
         margin: 0px auto;
@@ -321,7 +359,7 @@ p{
         border-bottom: 2.6px solid black;
         font-size: 18px;
         font-family: "M";
-        border-radius: 5.3px;
+        border-radius: 8px;
         display: none;
         font-weight: bold;
         margin-bottom: 20px;
