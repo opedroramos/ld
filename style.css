@@ -7,20 +7,18 @@
     src: url('fonts/Montserrat-VariableFont_wght.ttf');
 }
 body{
-    background: url(imagem/bg.jpg);
+    background-color: #FA403E;
 }
-p#black{
-    color: black;
-    font-size: 20px;
-    margin-left: 10px;
+#container{
+    min-width: 300px;
 }
 #disppai{
     display: flex;
     justify-content: center;
-    background-color: red;
+    background-color: #000000;
     flex-direction: row;
-    padding: 10px;
-    min-width: 310px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 #disp{
     font-size: 25px;
@@ -29,15 +27,16 @@ p#black{
     color: rgb(255, 255, 255);
     display: flex;
 }
-#container{
-    width: 90%;
-    margin: 0px auto;
-    padding: 20px;
-    min-width: 300px;
+p.videod{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
 }
 #confpai{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #conf{
     width: 440px;
@@ -55,7 +54,7 @@ h3{
 }
 h3.cor{
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: #FAFA57;
     font-weight: bold;
     font-size: 40px;
     font-family: "M";
@@ -63,9 +62,7 @@ h3.cor{
 #som{
     display: flex;
     justify-content: center;
-    margin: 10px auto;
     align-items: center;
-    max-width: 1095px;
     padding: 8px 0px;
 }
 #img{
@@ -85,7 +82,6 @@ h3.cor{
 #video{
     aspect-ratio: calc(16 / 9);
     width: 1095px;
-    border-bottom: 4px solid black;
     border-radius: 20px;
 }
 #atencaoo{
@@ -97,23 +93,29 @@ h3.cor{
     min-width: 200px;
 }
 #botaopai{
-    max-width: 1095px;
+    display: flex;
+    justify-content: center;
     margin: 0px auto;
     text-align: center;
-    width: 100%;
 }
 #botao{
-    background-color: red;
+    background-color: white;
     text-decoration: none;
-    color: white;
+    color: #FA403E;
     padding: 20px 20px;
-    border-bottom: 4px solid black;
     font-size: 30px;
     font-family: "M";
     border-radius: 16px;
     display: none;
     font-weight: bold;
     margin-bottom: 40px;
+    width: 60%;
+}
+p.vagasl{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "M";
+    color: #FA403E;
 }
 #provapai{
     display: flex;
@@ -164,8 +166,9 @@ h3.cor{
     color: #666666;
 }
 .titlebb{
-    margin-top: 20px;
-    color: #00FF48;
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
 }
 #beneficios{
     display: flex;
@@ -173,9 +176,9 @@ h3.cor{
     padding: 30px;
     flex-direction: row;
     align-items: center;
-    min-width: 300px;
     flex-wrap: wrap;
     gap: 20px;
+    background-color: #FA403E;
 }
 .conteudo1{
     background-color: white;
@@ -191,12 +194,12 @@ h3.cor{
     width: 180px;
 }
 .benefi{
-    color: #00B333;
+    color: #FA403E;
     font-size: 20px;
     margin-bottom: 10px;
 }
 .benef{
-    color: #00B333;
+    color: #FA403E;
     font-size: 16px;
 }
 #logodes{
@@ -225,6 +228,49 @@ h3.cor{
 }
 #d{
     color: #000000;
+}
+.titledd{
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
+}
+#descobrir{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    min-width: 300px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FA403E;
+}
+.conteudo2{
+    background-color: #ffffff;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desco{
+    color: #FA403E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.desc{
+    color: #FA403E;
+    font-size: 16px;
+}
+#pitch{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+#imgpi{
+    max-width: 600px;
 }
 #rodape2{
     display: flex;
@@ -269,20 +315,8 @@ h3.cor{
     font-weight: bold;
     margin-left: 10px;
 }
-p.videod{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "M";
-    color: rgb(255, 255, 255);
-}
 p.barra{
     font-size: 12px;
-    font-weight: bold;
-    font-family: "M";
-    color: rgb(255, 255, 255);
-}
-p.vagasl{
-    font-size: 24px;
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
@@ -294,6 +328,12 @@ p{
     color: rgb(255, 255, 255);
 }
 @media only screen and (max-width: 768px) {
+    #container{
+        width: 100%;
+        margin: 0px auto;
+        padding: 10px;
+        min-width: 300px;
+    }
     p#black{
         color: black;
         font-size: 16px;
@@ -313,12 +353,6 @@ p{
         font-family: "M";
         color: rgb(255, 255, 255);
         display: flex;
-    }
-    #container{
-        width: 90%;
-        margin: 0px auto;
-        padding: 10px;
-        min-width: 300px;
     }
     #confpai{
         display: flex;
