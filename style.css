@@ -164,6 +164,9 @@ p.vagasl{
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
 }
+#titlebbpai{
+    display: none;
+}
 .titlebb{
     color: #ffffff;
     background-color: #FA403E;
@@ -178,6 +181,7 @@ p.vagasl{
     flex-wrap: wrap;
     gap: 20px;
     background-color: #FA403E;
+    display: none;
 }
 .conteudo1{
     background-color: white;
@@ -204,6 +208,7 @@ p.vagasl{
 #logodes{
     background-color: white;
     padding: 20px;
+    display: none;
 }
 #agrupar{
     display: flex;
@@ -232,6 +237,7 @@ p.vagasl{
     color: #ffffff;
     background-color: #FA403E;
     padding: 20px;
+    display: none;
 }
 #descobrir{
     display: flex;
@@ -242,6 +248,7 @@ p.vagasl{
     flex-wrap: wrap;
     gap: 20px;
     background-color: #FA403E;
+    display: none;
 }
 .conteudo2{
     background-color: #ffffff;
@@ -266,6 +273,7 @@ p.vagasl{
     display: flex;
     justify-content: center;
     background-color: #ffffff;
+    display: none;
 }
 #imgpi{
     max-width: 600px;
@@ -277,6 +285,7 @@ p.vagasl{
     margin: 0px auto;
     text-align: center;
     background-color: #ffffff;
+    display: none;
 }
 #botao2{
     background-color: #FA403E;
@@ -299,6 +308,7 @@ p.vagasl2{
 #garantia{
     background-color: #FA403E;
     padding: 20px;
+    display: none;
 } 
 #garant{
     display: flex;
@@ -321,6 +331,7 @@ p.vagasl2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 .titleppp{
     color:#FA403E;
@@ -554,6 +565,9 @@ p{
         font-family: Arial, Helvetica, sans-serif;
         color: #666666;
     }
+    #titlebbpai{
+        display: none;
+    }
     .titlebb{
         color: #ffffff;
         background-color: #FA403E;
@@ -568,6 +582,7 @@ p{
         flex-wrap: wrap;
         gap: 13.3px;
         background-color: #FA403E;
+        display: none;
     }
     .conteudo1{
         background-color: white;
@@ -594,6 +609,7 @@ p{
     #logodes{
         background-color: white;
         padding: 13.3px;
+        display: none;
     }
     #agrupar{
         display: flex;
@@ -624,6 +640,7 @@ p{
         color: #ffffff;
         background-color: #FA403E;
         padding: 13.3px;
+        display: none;
     }
     #descobrir{
         display: flex;
@@ -634,6 +651,7 @@ p{
         flex-wrap: wrap;
         gap: 13.3px;
         background-color: #FA403E;
+        display: none;
     }
     .conteudo2{
         background-color: #ffffff;
@@ -658,6 +676,7 @@ p{
         display: flex;
         justify-content: center;
         background-color: #ffffff;
+        display: none;
     }
     #imgpi{
         max-width: 600px;
@@ -681,6 +700,7 @@ p{
         font-weight: bold;
         margin-bottom: 26.6px;
         width: 60%;
+        display: none;
     }
     p.vagasl2{
         font-size: 16px;
@@ -691,6 +711,7 @@ p{
     #garantia{
         background-color: #FA403E;
         padding: 13.3px;
+        display: none;
     } 
     #garant{
         display: flex;
@@ -713,6 +734,7 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        display: none;
     }
     .titleppp{
         color:#FA403E;
