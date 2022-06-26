@@ -589,7 +589,7 @@ p{
     }
     .benef{
         color: #FA403E;
-        font-size: 10.6px;
+        font-size: 13.3px;
     }
     #logodes{
         background-color: white;
@@ -614,9 +614,11 @@ p{
     #de{
         color: #FA403E;
         margin-bottom: 9.3px;
+        font-size: 13.3px;
     }
     #d{
         color: #000000;
+        font-size: 13.3px;
     }
     .titledd{
         color: #ffffff;
@@ -650,7 +652,7 @@ p{
     }
     .desc{
         color: #FA403E;
-        font-size: 10.6px;
+        font-size: 13.3px;
     }
     #pitch{
         display: flex;
@@ -702,7 +704,7 @@ p{
         width: 133.3px;
     }
     #garan{
-    
+        font-size: 13.3px;
     }
     #perguntas{
         background-color: #ffffff;
@@ -731,7 +733,7 @@ p{
     .pergu{
         color: #FA403E;
         margin-top: 6.6px;
-        font-size: 12px;
+        font-size: 13.3px;
     }
     #rodape2{
         display: flex;
