@@ -272,6 +272,53 @@ p.vagasl{
 #imgpi{
     max-width: 600px;
 }
+#garantia{
+    background-color: #FA403E;
+    padding: 20px;
+} 
+#garant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0px auto;
+}
+#imggg{
+    margin-right: 18px;
+    width: 200px;
+}
+#garan{
+
+}
+#perguntas{
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleppp{
+    color:#FA403E;
+    margin-bottom: 18px;
+}
+.pergunt{
+    color: #FA403E;
+    font-family: "M";
+    font-weight: bold;
+    border: 2px solid #FA403E;
+    padding: 18px;
+    margin: 0px auto;
+    width: 50%;
+}
+.pergun{
+    font-size: 20px;
+}
+.pergu{
+    color: #FA403E;
+    margin-top: 10px;
+    font-size: 18px;
+}
 #rodape2{
     display: flex;
     justify-content: center;
