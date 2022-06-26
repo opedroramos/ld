@@ -10,7 +10,6 @@ body{
     background-color: #FA403E;
 }
 #container{
-    min-width: 300px;
 }
 #disppai{
     display: flex;
@@ -39,8 +38,7 @@ p.videod{
     margin-bottom: 20px;
 }
 #conf{
-    max-width: 440px;
-    min-width: 240px;
+    width: 440px;
 }
 #h3pai{
     padding: 20px;
@@ -205,7 +203,6 @@ p.vagasl{
 }
 #logodes{
     background-color: white;
-    min-width: 300px;
     padding: 20px;
 }
 #agrupar{
@@ -216,7 +213,8 @@ p.vagasl{
     margin: 0px auto;
 }
 #imgd{
-    width: 240px;
+    width: 133.3px;
+    height: 133.3px;
 }
 #des{
     display: flex;
@@ -241,7 +239,6 @@ p.vagasl{
     padding: 30px;
     flex-direction: row;
     align-items: center;
-    min-width: 300px;
     flex-wrap: wrap;
     gap: 20px;
     background-color: #FA403E;
@@ -272,7 +269,7 @@ p.vagasl{
 }
 #imgpi{
     max-width: 600px;
-    min-width: 300px;
+    min-width: 200px;
 }
 #botaopai2{
     display: flex;
@@ -336,7 +333,7 @@ p.vagasl2{
     border: 2px solid #FA403E;
     padding: 18px;
     margin: 0px auto;
-    width: 50%;
+    width: 70%;
 }
 .pergun{
     font-size: 20px;
@@ -353,7 +350,6 @@ p.vagasl2{
     padding: 20px;
     flex-direction: column;
     align-items: center;
-    min-width: 300px;
 }
 .roda{
     font-family: Arial, Helvetica, sans-serif;
@@ -403,25 +399,24 @@ p{
 }
 @media only screen and (max-width: 768px) {
     #container{
-        min-width: 300px;
     }
     #disppai{
         display: flex;
         justify-content: center;
         background-color: #000000;
         flex-direction: row;
-        padding: 20px;
-        margin-bottom: 20px;
+        padding: 13.3px;
+        margin-bottom: 13.3px;
     }
     #disp{
-        font-size: 25px;
+        font-size: 16.6px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
         display: flex;
     }
     p.videod{
-        font-size: 20px;
+        font-size: 13.3px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
@@ -429,20 +424,20 @@ p{
     #confpai{
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 13.3px;
     }
     #conf{
-        max-width: 440px;
-        min-width: 240px;
+        width: 240px;
+
     }
     #h3pai{
-        padding: 20px;
+        padding: 13.3px;
     }
     h3{
         text-align: center;
         color: rgb(255, 255, 255);
         font-weight: bold;
-        font-size: 40px;
+        font-size: 26.6px;
         font-family: "M";
     
     }
@@ -450,38 +445,38 @@ p{
         text-align: center;
         color: #FAFA57;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 26.6px;
         font-family: "M";
     }
     #som{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 8px 0px;
+        padding: 5.3px 0px;
     }
     #img{
-        width: 32px;
-        margin-right: 10px;
+        width: 21.3px;
+        margin-right: 6.6px;
     }
     #ps{
         color: rgb(255, 255, 255);
-        font-size: 20px;
+        font-size: 13.3px;
         /*border: 1px solid red;*/
     }
     #videopai{
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 13.3px;
     }
     #video{
         aspect-ratio: calc(16 / 9);
         width: 1095px;
-        border-radius: 20px;
+        border-radius: 13.3px;
     }
     #atencaoo{
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 13.3px;
     }
     #imgaten{
         min-width: 200px;
@@ -496,17 +491,17 @@ p{
         background-color: white;
         text-decoration: none;
         color: #FA403E;
-        padding: 20px 20px;
-        font-size: 30px;
+        padding: 13.3px;
+        font-size: 20px;
         font-family: "M";
-        border-radius: 16px;
+        border-radius: 10.6px;
         display: none;
         font-weight: bold;
-        margin-bottom: 40px;
+        margin-bottom: 26.6px;
         width: 60%;
     }
     p.vagasl{
-        font-size: 24px;
+        font-size: 16px;
         font-weight: bold;
         font-family: "M";
         color: #FA403E;
@@ -518,88 +513,87 @@ p{
         background-color: #ffffff;
         margin: 0px auto;
         flex-direction: column;
-        padding: 26px;
+        padding: 17.3px;
     }
     #comentariopai{
-        font-size: 18px;
+        font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
         color: #000000;
         font-weight: initial;
-        margin: 20px;
+        margin: 13.3px;
     }
     .bloco{
         display: flex;
         width: 100%;
-        margin-bottom: 26px;
+        margin-bottom: 17.3px;
         flex-direction: row;
     }
     .imgc{
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
     .prov{
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 13.3px;
     }
     .nome{
-        font-size: 18px;
+        font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
         color: #365899;
     }
     .comentario{
-        font-size: 18px;
+        font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
         color: #000000;
         font-weight: initial;
-        margin: 6px 0px;
+        margin: 4px 0px;
     }
     .like{
-        font-size: 15px;
+        font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
         color: #666666;
     }
     .titlebb{
         color: #ffffff;
         background-color: #FA403E;
-        padding: 20px;
+        padding: 13.3px;
     }
     #beneficios{
         display: flex;
         justify-content: center;
-        padding: 30px;
+        padding: 20px;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 13.3px;
         background-color: #FA403E;
     }
     .conteudo1{
         background-color: white;
         max-width: 240px;
-        padding: 30px;
-        border-radius: 20px;
+        padding: 20px;
+        border-radius: 13.3px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .imgb{
-        width: 180px;
+        width: 120px;
     }
     .benefi{
         color: #FA403E;
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 13.3px;
+        margin-bottom: 6.6px;
     }
     .benef{
         color: #FA403E;
-        font-size: 16px;
+        font-size: 10.6px;
     }
     #logodes{
         background-color: white;
-        min-width: 300px;
-        padding: 20px;
+        padding: 13.3px;
     }
     #agrupar{
         display: flex;
@@ -609,7 +603,8 @@ p{
         margin: 0px auto;
     }
     #imgd{
-        width: 240px;
+        width: 133.3px;
+        height: 133.3px;
     }
     #des{
         display: flex;
@@ -618,7 +613,7 @@ p{
     }
     #de{
         color: #FA403E;
-        margin-bottom: 14px;
+        margin-bottom: 9.3px;
     }
     #d{
         color: #000000;
@@ -626,24 +621,23 @@ p{
     .titledd{
         color: #ffffff;
         background-color: #FA403E;
-        padding: 20px;
+        padding: 13.3px;
     }
     #descobrir{
         display: flex;
         justify-content: center;
-        padding: 30px;
+        padding: 20px;
         flex-direction: row;
         align-items: center;
-        min-width: 300px;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 13.3px;
         background-color: #FA403E;
     }
     .conteudo2{
         background-color: #ffffff;
         max-width: 240px;
-        padding: 30px;
-        border-radius: 20px;
+        padding: 20px;
+        border-radius: 13.3px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -651,12 +645,12 @@ p{
     }
     .desco{
         color: #FA403E;
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 13.3px;
+        margin-bottom: 6.6px;
     }
     .desc{
         color: #FA403E;
-        font-size: 16px;
+        font-size: 10.6px;
     }
     #pitch{
         display: flex;
@@ -665,7 +659,7 @@ p{
     }
     #imgpi{
         max-width: 600px;
-        min-width: 300px;
+        min-width: 200px;
     }
     #botaopai2{
         display: flex;
@@ -678,23 +672,23 @@ p{
         background-color: #FA403E;
         text-decoration: none;
         color: #ffffff;
-        padding: 20px 20px;
-        font-size: 30px;
+        padding: 13.3px;
+        font-size: 20px;
         font-family: "M";
-        border-radius: 16px;
+        border-radius: 10.6px;
         font-weight: bold;
-        margin-bottom: 40px;
+        margin-bottom: 26.6px;
         width: 60%;
     }
     p.vagasl2{
-        font-size: 24px;
+        font-size: 16px;
         font-weight: bold;
         font-family: "M";
         color: #ffffff;
     }
     #garantia{
         background-color: #FA403E;
-        padding: 20px;
+        padding: 13.3px;
     } 
     #garant{
         display: flex;
@@ -704,15 +698,15 @@ p{
         margin: 0px auto;
     }
     #imggg{
-        margin-right: 18px;
-        width: 200px;
+        margin-right: 12px;
+        width: 133.3px;
     }
     #garan{
     
     }
     #perguntas{
         background-color: #ffffff;
-        padding: 40px;
+        padding: 26.6px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -720,46 +714,45 @@ p{
     }
     .titleppp{
         color:#FA403E;
-        margin-bottom: 18px;
+        margin-bottom: 12px;
     }
     .pergunt{
         color: #FA403E;
         font-family: "M";
         font-weight: bold;
-        border: 2px solid #FA403E;
-        padding: 18px;
+        border: 1.3px solid #FA403E;
+        padding: 12px;
         margin: 0px auto;
-        width: 50%;
+        width: 70%;
     }
     .pergun{
-        font-size: 20px;
+        font-size: 13.3px;
     }
     .pergu{
         color: #FA403E;
-        margin-top: 10px;
-        font-size: 18px;
+        margin-top: 6.6px;
+        font-size: 12px;
     }
     #rodape2{
         display: flex;
         justify-content: center;
         background-color: #3D3D3D;
-        padding: 20px;
+        padding: 13.3px;
         flex-direction: column;
         align-items: center;
-        min-width: 300px;
     }
     .roda{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: initial;
-        font-size: 16px;
-        margin-bottom: 25px;
+        font-size: 10.6px;
+        margin-bottom: 16.6px;
         text-align: center;
     }
     .rod{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: initial;
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 10.6px;
+        margin-bottom: 6.6px;
         text-align: center;
     }
     #rodape{
@@ -769,27 +762,27 @@ p{
         text-align: center;
     }
     #termo{
-        font-size: 16px;
+        font-size: 10.6px;
         font-family: "M";
         color: rgb(255, 255, 255);
         font-weight: bold;
-        margin-right: 10px;
+        margin-right: 6.6px;
     }
     #privacidade{
-        font-size: 16px;
+        font-size: 10.6px;
         font-family: "M";
         color: rgb(255, 255, 255);
         font-weight: bold;
-        margin-left: 10px;
+        margin-left: 6.6px;
     }
     p.barra{
-        font-size: 12px;
+        font-size: 8px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
     }
     p{
-        font-size: 16px;
+        font-size: 10.6px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
