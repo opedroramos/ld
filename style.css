@@ -199,11 +199,38 @@ h3.cor{
     color: #00B333;
     font-size: 16px;
 }
+#logodes{
+    background-color: white;
+    min-width: 300px;
+    padding: 20px;
+}
+#agrupar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 0px auto;
+}
+#imgd{
+    width: 240px;
+}
+#des{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#de{
+    color: #FA403E;
+    margin-bottom: 14px;
+}
+#d{
+    color: #000000;
+}
 #rodape2{
     display: flex;
     justify-content: center;
     background-color: #3D3D3D;
-    padding: 30px;
+    padding: 20px;
     flex-direction: column;
     align-items: center;
     min-width: 300px;
