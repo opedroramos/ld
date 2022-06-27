@@ -1,6 +1,6 @@
 setTimeout(
     function tempo() {
-        var elemento = document.getElementById('botao')
+        var elemento = document.getElementById('botaopai')
         var elemento2 = document.getElementById('titlebbpai')
         var elemento3 = document.getElementById('beneficios')
         var elemento4 = document.getElementById('logodes')

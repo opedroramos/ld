@@ -96,6 +96,7 @@ h3.cor{
     justify-content: center;
     margin: 0px auto;
     text-align: center;
+    display: none;
 }
 #botao{
     background-color: white;
@@ -105,7 +106,6 @@ h3.cor{
     font-size: 30px;
     font-family: "M";
     border-radius: 16px;
-    display: none;
     font-weight: bold;
     margin-bottom: 40px;
     width: 60%;
@@ -218,8 +218,8 @@ p.vagasl{
     margin: 0px auto;
 }
 #imgd{
-    width: 133.3px;
-    height: 133.3px;
+    width: 200px;
+    height: 200px;
 }
 #des{
     display: flex;
@@ -229,15 +229,19 @@ p.vagasl{
 #de{
     color: #FA403E;
     margin-bottom: 14px;
+    font-size: 20px;
 }
 #d{
     color: #000000;
+    font-size: 20px;
+}
+#titleddpai{
+    display: none;
 }
 .titledd{
     color: #ffffff;
     background-color: #FA403E;
     padding: 20px;
-    display: none;
 }
 #descobrir{
     display: flex;
@@ -497,6 +501,7 @@ p{
         justify-content: center;
         margin: 0px auto;
         text-align: center;
+        display: none;
     }
     #botao{
         background-color: white;
@@ -506,7 +511,6 @@ p{
         font-size: 20px;
         font-family: "M";
         border-radius: 10.6px;
-        display: none;
         font-weight: bold;
         margin-bottom: 26.6px;
         width: 60%;
@@ -636,11 +640,13 @@ p{
         color: #000000;
         font-size: 13.3px;
     }
+    #titleddpai{
+        display: none;
+    }
     .titledd{
         color: #ffffff;
         background-color: #FA403E;
         padding: 13.3px;
-        display: none;
     }
     #descobrir{
         display: flex;
@@ -688,6 +694,7 @@ p{
         margin: 0px auto;
         text-align: center;
         background-color: #ffffff;
+        display: none;
     }
     #botao2{
         background-color: #FA403E;
@@ -700,7 +707,6 @@ p{
         font-weight: bold;
         margin-bottom: 26.6px;
         width: 60%;
-        display: none;
     }
     p.vagasl2{
         font-size: 16px;
