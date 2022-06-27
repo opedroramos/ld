@@ -10,6 +10,8 @@ setTimeout(
         var elemento8 = document.getElementById('botaopai2')
         var elemento9 = document.getElementById('garantia')
         var elemento10 = document.getElementById('perguntas')
+        var elemento11 = document.getElementById('pagamentos')
+        var elemento12 = document.getElementById('pitch2')
         elemento.style.display = "flex";
         elemento2.style.display = "block";
         elemento3.style.display = "flex";
@@ -20,6 +22,8 @@ setTimeout(
         elemento8.style.display = "flex";
         elemento9.style.display = "block";
         elemento10.style.display = "flex";
+        elemento11.style.display = "flex";
+        elemento12.style.display = "flex";
     }, /*tempo em milisegundos*/ 5000)
 /*var altura = window.screen.height
 console.log(altura)

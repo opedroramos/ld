@@ -116,6 +116,16 @@ p.vagasl{
     font-family: "M";
     color: #FA403E;
 }
+#pagamentos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+#imgpag{
+    min-width: 150px;
+}
 #provapai{
     display: flex;
     justify-content: initial;
@@ -272,6 +282,16 @@ p.vagasl{
 .desc{
     color: #FA403E;
     font-size: 16px;
+}
+#pitch2{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    display: none;
+}
+#imgpi2{
+    max-width: 600px;
+    min-width: 200px;
 }
 #pitch{
     display: flex;
@@ -521,6 +541,16 @@ p{
         font-family: "M";
         color: #FA403E;
     }
+    #pagamentos{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: none;
+    }
+    #imgpag{
+        min-width: 150px;
+    }
     #provapai{
         display: flex;
         justify-content: initial;
@@ -677,6 +707,16 @@ p{
     .desc{
         color: #FA403E;
         font-size: 16px;
+    }
+    #pitch2{
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        display: none;
+    }
+    #imgpi2{
+        max-width: 600px;
+        min-width: 200px;
     }
     #pitch{
         display: flex;
