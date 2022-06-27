@@ -207,7 +207,7 @@ p.vagasl{
 }
 #logodes{
     background-color: white;
-    padding: 20px;
+    padding: 80px 20px;
     display: none;
 }
 #agrupar{
@@ -311,7 +311,7 @@ p.vagasl2{
 }
 #garantia{
     background-color: #FA403E;
-    padding: 20px;
+    padding: 80px 20px;
     display: none;
 } 
 #garant{
@@ -475,7 +475,7 @@ p{
     }
     #ps{
         color: rgb(255, 255, 255);
-        font-size: 13.3px;
+        font-size: 18px;
         /*border: 1px solid red;*/
     }
     #videopai{
@@ -531,7 +531,7 @@ p{
         padding: 17.3px;
     }
     #comentariopai{
-        font-size: 12px;
+        font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
         color: #000000;
         font-weight: initial;
@@ -553,19 +553,19 @@ p{
         margin-left: 13.3px;
     }
     .nome{
-        font-size: 12px;
+        font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
         color: #365899;
     }
     .comentario{
-        font-size: 12px;
+        font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
         color: #000000;
         font-weight: initial;
         margin: 4px 0px;
     }
     .like{
-        font-size: 10px;
+        font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
         color: #666666;
     }
@@ -603,16 +603,16 @@ p{
     }
     .benefi{
         color: #FA403E;
-        font-size: 13.3px;
+        font-size: 16px;
         margin-bottom: 6.6px;
     }
     .benef{
         color: #FA403E;
-        font-size: 13.3px;
+        font-size: 16px;
     }
     #logodes{
         background-color: white;
-        padding: 13.3px;
+        padding: 53.3px 13.3px;
         display: none;
     }
     #agrupar{
@@ -634,11 +634,11 @@ p{
     #de{
         color: #FA403E;
         margin-bottom: 9.3px;
-        font-size: 13.3px;
+        font-size: 16px;
     }
     #d{
         color: #000000;
-        font-size: 13.3px;
+        font-size: 16px;
     }
     #titleddpai{
         display: none;
@@ -671,12 +671,12 @@ p{
     }
     .desco{
         color: #FA403E;
-        font-size: 13.3px;
+        font-size: 16px;
         margin-bottom: 6.6px;
     }
     .desc{
         color: #FA403E;
-        font-size: 13.3px;
+        font-size: 16px;
     }
     #pitch{
         display: flex;
@@ -716,7 +716,7 @@ p{
     }
     #garantia{
         background-color: #FA403E;
-        padding: 13.3px;
+        padding: 53.3px 13.3px;
         display: none;
     } 
     #garant{
@@ -756,12 +756,12 @@ p{
         width: 70%;
     }
     .pergun{
-        font-size: 13.3px;
+        font-size: 16px;
     }
     .pergu{
         color: #FA403E;
         margin-top: 6.6px;
-        font-size: 13.3px;
+        font-size: 16px;
     }
     #rodape2{
         display: flex;
@@ -774,14 +774,14 @@ p{
     .roda{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: initial;
-        font-size: 10.6px;
+        font-size: 12px;
         margin-bottom: 16.6px;
         text-align: center;
     }
     .rod{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: initial;
-        font-size: 10.6px;
+        font-size: 12px;
         margin-bottom: 6.6px;
         text-align: center;
     }
@@ -792,27 +792,27 @@ p{
         text-align: center;
     }
     #termo{
-        font-size: 10.6px;
+        font-size: 12px;
         font-family: "M";
         color: rgb(255, 255, 255);
         font-weight: bold;
         margin-right: 6.6px;
     }
     #privacidade{
-        font-size: 10.6px;
+        font-size: 12px;
         font-family: "M";
         color: rgb(255, 255, 255);
         font-weight: bold;
         margin-left: 6.6px;
     }
     p.barra{
-        font-size: 8px;
+        font-size: 12px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
     }
     p{
-        font-size: 10.6px;
+        font-size: 12px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
