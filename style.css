@@ -35,13 +35,16 @@ p.videod{
 #confpai{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
 }
 #conf{
     width: 440px;
 }
-#h3pai{
-    padding: 20px;
+#headline{
+    display: flex;
+    justify-content: center;
+}
+#imghead{
+    min-width: 200px;
 }
 h3{
     text-align: center;
@@ -51,45 +54,53 @@ h3{
     font-family: "M";
 
 }
+/*
+#h3pai{
+    padding: 20px;
+}
 h3.cor{
     text-align: center;
     color: #FAFA57;
     font-weight: bold;
     font-size: 40px;
     font-family: "M";
-}
+}*/
 #som{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 0px;
+    margin-bottom: 10px;
 }
 #img{
     width: 32px;
     margin-right: 10px;
 }
 #ps{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     /*border: 1px solid red;*/
 }
 #videopai{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 #video{
     aspect-ratio: calc(16 / 9);
     width: 1095px;
     border-radius: 20px;
 }
-#atencaoo{
+#preco{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 20px;
+    display: none;
 }
-#imgaten{
-    min-width: 200px;
+#pppp{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 #botaopai{
     display: flex;
@@ -99,9 +110,9 @@ h3.cor{
     display: none;
 }
 #botao{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
-    color: #FA403E;
+    color: #FAFA57;
     padding: 20px 20px;
     font-size: 30px;
     font-family: "M";
@@ -114,7 +125,7 @@ p.vagasl{
     font-size: 24px;
     font-weight: bold;
     font-family: "M";
-    color: #FA403E;
+    color: #FAFA57;
 }
 #pagamentos{
     display: flex;
@@ -312,9 +323,9 @@ p.vagasl{
     display: none;
 }
 #botao2{
-    background-color: #FA403E;
+    background-color: #000000;
     text-decoration: none;
-    color: #ffffff;
+    color: #FAFA57;
     padding: 20px 20px;
     font-size: 30px;
     font-family: "M";
@@ -327,7 +338,7 @@ p.vagasl2{
     font-size: 24px;
     font-weight: bold;
     font-family: "M";
-    color: #ffffff;
+    color: #FAFA57;
 }
 #garantia{
     background-color: #FA403E;
@@ -459,14 +470,17 @@ p{
     #confpai{
         display: flex;
         justify-content: center;
-        margin-bottom: 13.3px;
     }
     #conf{
         width: 240px;
 
     }
-    #h3pai{
-        padding: 13.3px;
+    #headline{
+        display: flex;
+        justify-content: center;
+    }
+    #imghead{
+        min-width: 200px;
     }
     h3{
         text-align: center;
@@ -476,45 +490,52 @@ p{
         font-family: "M";
     
     }
+    /*#h3pai{
+        padding: 13.3px;
+    }
     h3.cor{
         text-align: center;
         color: #FAFA57;
         font-weight: bold;
         font-size: 26.6px;
         font-family: "M";
-    }
+    }*/
     #som{
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 5.3px 0px;
+        margin-bottom: 6.6px;
     }
     #img{
         width: 21.3px;
         margin-right: 6.6px;
     }
     #ps{
-        color: rgb(255, 255, 255);
-        font-size: 18px;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
         /*border: 1px solid red;*/
     }
     #videopai{
         display: flex;
         justify-content: center;
-        margin-bottom: 13.3px;
+        margin-bottom: 50px;
     }
     #video{
         aspect-ratio: calc(16 / 9);
         width: 1095px;
         border-radius: 13.3px;
     }
-    #atencaoo{
+    #preco{
         display: flex;
         justify-content: center;
-        margin-bottom: 13.3px;
+        margin: 13.3px;
+        display: none;
     }
-    #imgaten{
-        min-width: 200px;
+    #pppp{
+        font-size: 16px;
+        text-align: center;
+        color: rgb(0, 0, 0);
     }
     #botaopai{
         display: flex;
@@ -524,9 +545,9 @@ p{
         display: none;
     }
     #botao{
-        background-color: white;
+        background-color: black;
         text-decoration: none;
-        color: #FA403E;
+        color: #FAFA57;
         padding: 13.3px;
         font-size: 20px;
         font-family: "M";
@@ -539,7 +560,7 @@ p{
         font-size: 16px;
         font-weight: bold;
         font-family: "M";
-        color: #FA403E;
+        color: #FAFA57;
     }
     #pagamentos{
         display: flex;
@@ -737,9 +758,9 @@ p{
         display: none;
     }
     #botao2{
-        background-color: #FA403E;
+        background-color: #000000;
         text-decoration: none;
-        color: #ffffff;
+        color: #FAFA57;
         padding: 13.3px;
         font-size: 20px;
         font-family: "M";
@@ -752,7 +773,7 @@ p{
         font-size: 16px;
         font-weight: bold;
         font-family: "M";
-        color: #ffffff;
+        color: #FAFA57;
     }
     #garantia{
         background-color: #FA403E;

@@ -12,6 +12,7 @@ setTimeout(
         var elemento10 = document.getElementById('perguntas')
         var elemento11 = document.getElementById('pagamentos')
         var elemento12 = document.getElementById('pitch2')
+        var elemento13 = document.getElementById('preco')
         elemento.style.display = "flex";
         elemento2.style.display = "block";
         elemento3.style.display = "flex";
@@ -24,7 +25,8 @@ setTimeout(
         elemento10.style.display = "flex";
         elemento11.style.display = "flex";
         elemento12.style.display = "flex";
-    }, /*tempo em milisegundos*/ 333000)
+        elemento13.style.display = "flex";
+    }, /*tempo em milisegundos*/ 5000)
 /*var altura = window.screen.height
 console.log(altura)
 var largura = window.screen.width
