@@ -80,6 +80,7 @@ h3.cor{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: initial;
+    text-align: center;
     /*border: 1px solid red;*/
 }
 #preco{
@@ -109,14 +110,8 @@ h3.cor{
     font-family: "M";
     border-radius: 16px;
     font-weight: bold;
-    margin-bottom: 40px;
-    width: 60%;
-}
-p.vagasl{
-    font-size: 24px;
-    font-weight: bold;
-    font-family: "M";
-    color: #FAFA57;
+    margin-bottom: 30px;
+    width: 80%;
 }
 #vagas{
     display: flex;
@@ -321,11 +316,10 @@ p.vagasl{
     justify-content: center;
     margin: 0px auto;
     text-align: center;
-    background-color: #ffffff;
     display: none;
 }
 #botao2{
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
     color: #FAFA57;
     padding: 20px 20px;
@@ -333,14 +327,29 @@ p.vagasl{
     font-family: "M";
     border-radius: 16px;
     font-weight: bold;
-    margin-bottom: 40px;
-    width: 60%;
+    margin-bottom: 30px;
+    width: 80%;
 }
-p.vagasl2{
+#vagas2{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+#vvvv2{
     font-size: 24px;
-    font-weight: bold;
-    font-family: "M";
-    color: #FAFA57;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: initial;
+}
+#pagamentos2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+#imgpag2{
+    min-width: 150px;
 }
 #garantia{
     background-color: #FA403E;
@@ -515,8 +524,9 @@ p{
     }
     #ps{
         color: rgb(255, 255, 255);
-        font-size: 14px;
+        font-size: 12px;
         font-weight: initial;
+        text-align: center;
         /*border: 1px solid red;*/
     }
     #botaopai{
@@ -535,14 +545,8 @@ p{
         font-family: "M";
         border-radius: 10.6px;
         font-weight: bold;
-        margin-bottom: 26.6px;
-        width: 60%;
-    }
-    p.vagasl{
-        font-size: 16px;
-        font-weight: bold;
-        font-family: "M";
-        color: #FAFA57;
+        margin-bottom: 20px;
+        width: 80%;
     }
     #vagas{
         display: flex;
@@ -746,11 +750,10 @@ p{
         justify-content: center;
         margin: 0px auto;
         text-align: center;
-        background-color: #ffffff;
         display: none;
     }
     #botao2{
-        background-color: #000000;
+        background-color: black;
         text-decoration: none;
         color: #FAFA57;
         padding: 13.3px;
@@ -758,14 +761,28 @@ p{
         font-family: "M";
         border-radius: 10.6px;
         font-weight: bold;
-        margin-bottom: 26.6px;
-        width: 60%;
+        margin-bottom: 20px;
+        width: 80%;
     }
-    p.vagasl2{
+    #vagas2{
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    #vvvv2{
         font-size: 16px;
-        font-weight: bold;
-        font-family: "M";
-        color: #FAFA57;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    #pagamentos2{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: none;
+    }
+    #imgpag2{
+        min-width: 150px;
     }
     #garantia{
         background-color: #FA403E;
