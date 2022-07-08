@@ -15,6 +15,8 @@ setTimeout(
         var elemento14 = document.querySelector('#botaopai2')
         var elemento15 = document.querySelector('#pagamentos2')
         var elemento16 = document.querySelector('#vagas2')
+        var elemento17 = document.querySelector('#botao2caixa')
+        var elemento18 = document.querySelector('#provapai')
 
         elemento.style.display = "flex";
         elemento2.style.display = "block";
@@ -31,7 +33,9 @@ setTimeout(
         elemento14.style.display = "flex";
         elemento15.style.display = "flex";
         elemento16.style.display = "flex";
-    }, /*tempo em milisegundos*/ 2000)
+        elemento17.style.display = "block";
+        elemento18.style.display = "flex";
+    }, /*tempo em milisegundos*/ 5000)
 /*var altura = window.screen.height
 console.log(altura)
 var largura = window.screen.width
