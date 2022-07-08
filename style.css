@@ -39,12 +39,8 @@ p.videod{
 #conf{
     width: 440px;
 }
-#headline{
-    display: flex;
-    justify-content: center;
-}
-#imghead{
-    min-width: 200px;
+#h3pai{
+    padding: 20px;
 }
 h3{
     text-align: center;
@@ -54,42 +50,37 @@ h3{
     font-family: "M";
 
 }
-/*
-#h3pai{
-    padding: 20px;
-}
 h3.cor{
     text-align: center;
     color: #FAFA57;
     font-weight: bold;
     font-size: 40px;
     font-family: "M";
-}*/
+}
+#videopai{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    aspect-ratio: calc(16 / 9);
+    width: 1095px;
+}
 #som{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 0px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 #img{
     width: 32px;
     margin-right: 10px;
 }
 #ps{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    font-weight: initial;
     /*border: 1px solid red;*/
-}
-#videopai{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-#video{
-    aspect-ratio: calc(16 / 9);
-    width: 1095px;
-    border-radius: 20px;
 }
 #preco{
     display: flex;
@@ -126,6 +117,17 @@ p.vagasl{
     font-weight: bold;
     font-family: "M";
     color: #FAFA57;
+}
+#vagas{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+#vvvv{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: initial;
 }
 #pagamentos{
     display: flex;
@@ -473,14 +475,9 @@ p{
     }
     #conf{
         width: 240px;
-
     }
-    #headline{
-        display: flex;
-        justify-content: center;
-    }
-    #imghead{
-        min-width: 200px;
+    #h3pai{
+        padding: 13.3px;
     }
     h3{
         text-align: center;
@@ -490,52 +487,37 @@ p{
         font-family: "M";
     
     }
-    /*#h3pai{
-        padding: 13.3px;
-    }
     h3.cor{
         text-align: center;
         color: #FAFA57;
         font-weight: bold;
         font-size: 26.6px;
         font-family: "M";
-    }*/
+    }
+    #videopai{
+        display: flex;
+        justify-content: center;
+    }
+    #video{
+        aspect-ratio: calc(16 / 9);
+        width: 1095px;
+    }
     #som{
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 5.3px 0px;
-        margin-bottom: 6.6px;
+        margin: 6.6px;
     }
     #img{
         width: 21.3px;
         margin-right: 6.6px;
     }
     #ps{
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         font-size: 14px;
+        font-weight: initial;
         /*border: 1px solid red;*/
-    }
-    #videopai{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 50px;
-    }
-    #video{
-        aspect-ratio: calc(16 / 9);
-        width: 1095px;
-        border-radius: 13.3px;
-    }
-    #preco{
-        display: flex;
-        justify-content: center;
-        margin: 13.3px;
-        display: none;
-    }
-    #pppp{
-        font-size: 16px;
-        text-align: center;
-        color: rgb(0, 0, 0);
     }
     #botaopai{
         display: flex;
@@ -561,6 +543,16 @@ p{
         font-weight: bold;
         font-family: "M";
         color: #FAFA57;
+    }
+    #vagas{
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    #vvvv{
+        font-size: 16px;
+        text-align: center;
+        color: rgb(255, 255, 255);
     }
     #pagamentos{
         display: flex;

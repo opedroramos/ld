@@ -12,7 +12,7 @@ setTimeout(
         var elemento10 = document.getElementById('perguntas')
         var elemento11 = document.getElementById('pagamentos')
         var elemento12 = document.getElementById('pitch2')
-        var elemento13 = document.getElementById('preco')
+        var elemento13 = document.getElementById('vagas')
         elemento.style.display = "flex";
         elemento2.style.display = "block";
         elemento3.style.display = "flex";
