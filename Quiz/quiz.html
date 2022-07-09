@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>simple quiz 2</title>
+    <link rel="stylesheet" href="style.css">
     <style>
+        
+        .container {
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 60%;
+            padding: 20px;
+            display: none;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+        
     </style>
 </head>
 
@@ -29,33 +42,47 @@
         <input type="radio" name="question2">600<br>
         <button class="next" onclick="next(2)">NEXT</button>
     </div>
-    <div class="container">
-        Q2 what is 100+800?<hr>
-        <input type="radio" name="question2" >300<br>
-        <input type="radio" name="question2" id="correct2">400<br>
-        <input type="radio" name="question2">150<br>
-        <input type="radio" name="question2">600<br>
-        <button class="next" onclick="next(3)">NEXT</button>
-    </div>
 
-    <div class="container">
-        Q3 what is 300+200?<hr>
-        <input type="radio" name="question3" >300<br>
-        <input type="radio" name="question3">400<br>
-        <input type="radio" name="question3">150<br>
-        <input type="radio" name="question3" id="correct3">500<br>
-        <a href="#">página de vendas</a>
-    </div>
     <div class="container">
         Q3 what is 300+700?<hr>
         <input type="radio" name="question3" >300<br>
         <input type="radio" name="question3">400<br>
         <input type="radio" name="question3">150<br>
         <input type="radio" name="question3" id="correct3">500<br>
-        <button onclick="result()">SUBMIT QUIZ</button>
+        <button class="next" onclick="next(3)">NEXT</button>
     </div>
-    <script src="script.js"></script>
+    <div class="container">
+        Q3 what is 300+200?<hr>
+        <input type="radio" name="question3" >300<br>
+        <input type="radio" name="question3">400<br>
+        <input type="radio" name="question3">150<br>
+        <input type="radio" name="question3" id="correct3">500<br>
+        <a href="">Continuar</a>
+    </div>
+    <script src=""></script>
     <script>
+        // displaying the first block of question
+        document.getElementsByClassName('container')[0].style.display = "block";
+
+        // DEFINING THE NEXT FUNCTION
+        function next(id) {
+            document.getElementsByClassName('container')[id-1].style.display = "none";
+            document.getElementsByClassName('container')[id].style.display = "block";
+        }
+        //getting final result
+        function result() {
+            var score = 0;
+            if (document.getElementById('correct1').checked) {
+                score++;
+            }
+            if (document.getElementById('correct2').checked) {
+                score++;
+            }
+            if (document.getElementById('correct3').checked) {
+                score++;
+            }
+            alert("your score is: "+ score);
+        }
     </script>
 </body>
 </html>
