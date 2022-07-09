@@ -37,29 +37,32 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
-#rodape2{
-    display: flex;
-    justify-content: center;
-    background-color: #3D3D3D;
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
+#agruparodape{
     position: absolute;
     bottom: 0px;
 }
-.roda{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: initial;
-    font-size: 16px;
-    margin-bottom: 25px;
-    text-align: center;
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
 }
 .rod{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "M";
     font-weight: initial;
     font-size: 16px;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: bold;
 }
 #rodape{
     display: flex;
@@ -80,6 +83,21 @@
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 p.barra{
     font-size: 12px;
@@ -124,28 +142,33 @@ p{
     border-radius: 16px;
     font-weight: bold;
     margin-bottom: 13.3px;
+}
+#agruparodape{
+    position: absolute;
+    bottom: 0px;
 }    
-#rodape2{
+#rodape3{
     display: flex;
     justify-content: center;
-    background-color: #3D3D3D;
-    padding: 13.3px;
-    flex-direction: column;
     align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #3D3D3D;
 }
-.roda{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: initial;
-    font-size: 12px;
-    margin-bottom: 16.6px;
-    text-align: center;
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
 }
 .rod{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "M";
     font-weight: initial;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 6.6px;
     text-align: center;
+    font-weight: bold;
 }
 #rodape{
     display: flex;
@@ -154,27 +177,42 @@ p{
     text-align: center;
 }
 #termo{
-    font-size: 12px;
+    font-size: 14px;
     font-family: "M";
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin-right: 6.6px;
 }
 #privacidade{
-    font-size: 12px;
+    font-size: 14px;
     font-family: "M";
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin-left: 6.6px;
 }
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 13.3px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 10px;
+    margin-bottom: 16.6px;
+    text-align: center;
+}
 p.barra{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
 }
 p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
