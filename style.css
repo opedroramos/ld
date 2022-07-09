@@ -140,6 +140,16 @@ h3.cor{
 }
 #seta{
     max-width: 40px;
+    animation-name: pulse;
+    animation: pulse 1s infinite;
+}
+@keyframes pulse{
+    from{
+        width: 20px;
+    }
+    to{
+        width: 40px;
+    }
 }
 #provapai{
     display: flex;
