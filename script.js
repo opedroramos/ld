@@ -17,6 +17,7 @@ setTimeout(
         var elemento16 = document.querySelector('#vagas2')
         var elemento17 = document.querySelector('#botao2caixa')
         var elemento18 = document.querySelector('#provapai')
+        var elemento19 = document.querySelector('#seta')
 
         elemento.style.display = "flex";
         elemento2.style.display = "block";
@@ -35,6 +36,7 @@ setTimeout(
         elemento16.style.display = "flex";
         elemento17.style.display = "block";
         elemento18.style.display = "flex";
+        elemento19.style.display = "block";
     }, /*tempo em milisegundos*/ 5000)
 /*var altura = window.screen.height
 console.log(altura)
