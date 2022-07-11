@@ -2,14 +2,194 @@
     padding: 0px;
     margin: 0px;
 }
-.container {
-    border: 3px solid black;
-    border-radius: 10px;
-    width: 60%;
-    padding: 20px;
-    display: none;
+@font-face {
+    font-family: 'M';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
+.container {
+    background-color: #FA403E;
+    font-family: "M";
+    color: #ffffff;
+    padding: 40px;
+    margin: 0px auto;
+    display: none;
+    box-sizing: border-box;
 
-button {
-    margin-top: 10px;
+}
+div.pai{
+    display: flex;
+    justify-content: center;
+}
+input[type="radio"]{
+    margin-right: 10px;
+}
+hr{
+    margin: 20px 0px;
+}
+.botaopaii{
+    display: flex;
+    justify-content: end;
+}
+button.next, .next {
+    background-color: #000000;
+    border-radius: 8px;
+    font-family: "M";
+    color: #FAFA57;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+}
+#agruparodape{
+    position: absolute;
+    bottom: 0px;
+}
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#privacidade{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p.barra{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 768px) {
+    #agruparodape{
+        position: absolute;
+        bottom: 0px;
+    }    
+    #rodape3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #3D3D3D;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 14px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 6.6px;
+    }
+    #privacidade{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 6.6px;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+    }
+    p.barra{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
 }
