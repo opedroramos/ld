@@ -6,6 +6,10 @@
     font-family: 'M';
     src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
+.containerpai{
+    background-color: #FA403E;
+
+}
 .container {
     background-color: #FA403E;
     font-family: "M";
@@ -14,6 +18,7 @@
     margin: 0px auto;
     display: none;
     box-sizing: border-box;
+    max-width: 800px;
 }
 div.pai{
     display: flex;
@@ -27,7 +32,7 @@ hr{
 }
 .botaopaii{
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 button.next, .next {
     background-color: #000000;
@@ -41,10 +46,6 @@ button.next, .next {
     box-sizing: border-box;
     text-decoration: none;
     font-size: 20px;
-}
-#agruparodape{
-    position: absolute;
-    bottom: 0px;
 }
 #rodape3{
     display: flex;
@@ -117,10 +118,6 @@ p{
     color: rgb(255, 255, 255);
 }
 @media only screen and (max-width: 768px) {
-    #agruparodape{
-        position: absolute;
-        bottom: 0px;
-    }    
     #rodape3{
         display: flex;
         justify-content: center;
