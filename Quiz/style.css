@@ -6,6 +6,13 @@
     font-family: 'M';
     src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
+#imgpailogo{
+    display: flex;
+    justify-content: center;
+}
+#imgl{
+    width: 340px;
+}
 .containerpai{
     background-color: #FA403E;
 
@@ -20,9 +27,16 @@
     box-sizing: border-box;
     max-width: 800px;
 }
-div.pai{
+.imgpai{
     display: flex;
     justify-content: center;
+    margin: 40px;
+}
+.imgq{
+    max-width: 400px;
+    min-width: 200px;
+    border-radius: 8px;
+    margin: 0px auto;
 }
 input[type="radio"]{
     margin-right: 10px;
@@ -118,6 +132,65 @@ p{
     color: rgb(255, 255, 255);
 }
 @media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: 'M';
+        src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+    }
+    #imgpailogo{
+        display: flex;
+        justify-content: center;
+    }
+    #imgl{
+        width: 240px;
+    }
+    .containerpai{
+        background-color: #FA403E;
+    
+    }
+    .container {
+        background-color: #FA403E;
+        font-family: "M";
+        color: #ffffff;
+        padding: 40px;
+        margin: 0px auto;
+        display: none;
+        box-sizing: border-box;
+        max-width: 800px;
+    }
+    .imgpai{
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+    .imgq{
+        max-width: 400px;
+        min-width: 200px;
+        border-radius: 8px;
+        margin: 0px auto;
+    }
+    input[type="radio"]{
+        margin-right: 10px;
+    }
+    hr{
+        margin: 20px 0px;
+    }
+    .botaopaii{
+        display: flex;
+        justify-content: center;
+    }
+    button.next, .next {
+        background-color: #000000;
+        border-radius: 8px;
+        font-family: "M";
+        color: #FAFA57;
+        font-weight: bold;
+        border: none;
+        padding: 20px;
+        margin: 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 20px;
+    }
     #rodape3{
         display: flex;
         justify-content: center;
