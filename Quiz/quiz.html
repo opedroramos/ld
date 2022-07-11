@@ -7,23 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>simple quiz 2</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        
-        .container {
-            border: 3px solid black;
-            border-radius: 10px;
-            width: 60%;
-            padding: 20px;
-            display: none;
-        }
-
-        button {
-            margin-top: 10px;
-        }
-        
-    </style>
 </head>
-
 <body>
     <div class="container">
         Q1 what is 100+200?<hr>
@@ -59,30 +43,6 @@
         <input type="radio" name="question3" id="correct3">500<br>
         <a href="">Continuar</a>
     </div>
-    <script src=""></script>
-    <script>
-        // displaying the first block of question
-        document.getElementsByClassName('container')[0].style.display = "block";
-
-        // DEFINING THE NEXT FUNCTION
-        function next(id) {
-            document.getElementsByClassName('container')[id-1].style.display = "none";
-            document.getElementsByClassName('container')[id].style.display = "block";
-        }
-        //getting final result
-        function result() {
-            var score = 0;
-            if (document.getElementById('correct1').checked) {
-                score++;
-            }
-            if (document.getElementById('correct2').checked) {
-                score++;
-            }
-            if (document.getElementById('correct3').checked) {
-                score++;
-            }
-            alert("your score is: "+ score);
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
