@@ -9,6 +9,7 @@
 #imgpailogo{
     display: flex;
     justify-content: center;
+    background-color: #ffffff;
 }
 #imgl{
     width: 340px;
@@ -26,7 +27,6 @@
     display: none;
     box-sizing: border-box;
     max-width: 800px;
-    box-shadow: 0px 0px 10px 1px #00000050;
 }
 .imgpai{
     display: flex;
@@ -127,11 +127,21 @@ p.barra{
     font-family: "M";
     color: rgb(255, 255, 255);
 }
+p.ppp{
+    font-size: 24px;
+    color: #FAFA57;
+}
+p.pp{
+    font-size: 14px;
+    color: #000000;
+    margin: 10px 0px;
+}
 p{
     font-size: 20px;
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
+    margin: 10px 0px;
 }
 @media only screen and (max-width: 768px) {
     @font-face {
@@ -141,6 +151,7 @@ p{
     #imgpailogo{
         display: flex;
         justify-content: center;
+        background-color: #ffffff;
     }
     #imgl{
         width: 240px;
@@ -169,6 +180,7 @@ p{
         min-width: 200px;
         border-radius: 8px;
         margin: 0px auto;
+        box-shadow: 0px 0px 10px 1px #00000050;
     }
     input[type="radio"]{
         margin-right: 10px;
@@ -257,10 +269,20 @@ p{
         font-family: "M";
         color: rgb(255, 255, 255);
     }
+    p.ppp{
+        font-size: 18px;
+        color: #FAFA57;
+    }
+    p.pp{
+        font-size: 14px;
+        color: #000000;
+        margin: 10px 0px;
+    }
     p{
         font-size: 16px;
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
+        margin: 10px 0px;
     }
 }
