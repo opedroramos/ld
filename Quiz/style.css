@@ -63,6 +63,19 @@ button.next, .next {
     text-decoration: none;
     font-size: 20px;
 }
+ul{
+    padding: 10px;
+    box-sizing: border-box;
+}
+li{
+    font-size: 14px;
+    font-family: "M";
+    margin: 10px 0px;
+    font-weight: bold;
+}
+p#se{
+    color: #FAFA57;
+}
 #rodape3{
     display: flex;
     justify-content: center;
@@ -204,6 +217,19 @@ p{
         box-sizing: border-box;
         text-decoration: none;
         font-size: 20px;
+    }
+    ul{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    li{
+        font-size: 14px;
+        font-family: "M";
+        margin: 10px 0px;
+        font-weight: bold;
+    }
+    p#se{
+        color: #FAFA57;
     }
     #rodape3{
         display: flex;
