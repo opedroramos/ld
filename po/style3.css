@@ -6,13 +6,16 @@
     font-family: 'M';
     src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
+body{
+    background-color: #e2e2e2;
+}
 #container{
 }
 #capapai{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
 }
 #capa{
@@ -25,10 +28,10 @@
 }
 #bloco{
     display: flex;
-    background-color: #ff0000;
+    background-color: #ffffff;
     flex-direction: column;
     padding: 60px;
-    margin: 60px;
+    margin: 0px 140px 140px 140px;
     text-align: center;
     border-radius: 16px;
     box-shadow: 0px 0px 20px 1px #00000060;
@@ -41,6 +44,12 @@
     width: 170.6px;
     margin-bottom: 40px;
 }
+.aprov{
+    font-size: 35px;
+    font-family: "M";
+    color: #25AE88;
+    margin-bottom: 20px;
+}
 #videopai{
     display: flex;
     justify-content: center;
@@ -49,26 +58,37 @@
     aspect-ratio: calc(16 / 9);
     width: 1095px;
 }
-.tudo{
+.acesso{
     font-family: "M";
-    font-size: 60px;
-    margin-bottom: 20px;
+    font-size: 26px;
+    color: #000000;
+    margin: 20px;
+    font-weight: 600;
 }
-.cliq{
+.acess{
     font-family: "M";
-    font-size: 30px;
+    font-size: 20px;
+    color: #666666;
     margin-bottom: 20px;
+    font-weight: 550;
 }
 .botao{
-    background-color: rgb(0, 0, 0);
+    background-color: #25AE88;
     text-decoration: none;
-    color:#FAFA57;
+    color:#ffffff;
     padding: 20px;
     font-size: 30px;
     font-family: "M";
     border-radius: 16px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+.tambem{
+    font-family: "M";
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 20px;
+    font-weight: 550;
 }
 #rodape3{
     display: flex;
