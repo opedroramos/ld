@@ -16,6 +16,14 @@
     margin: 0px auto;
     text-align: center;
 }
+#imgjoia{
+    display: flex;
+    justify-content: center;
+}
+#joia{
+    width: 170.6px;
+    margin-bottom: 40px;
+}
 .tudo{
     font-family: "M";
     font-size: 60px;
@@ -117,6 +125,14 @@ p{
     padding: 40px;
     margin: 0px auto;
     text-align: center;
+}
+#imgjoia{
+    display: flex;
+    justify-content: center;
+}
+#joia{
+    width: 102.4px;
+    margin-bottom: 20px;
 }
 .tudo{
     font-family: "M";
