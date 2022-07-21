@@ -8,21 +8,46 @@
 }
 #container{
 }
+#capapai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+#capa{
+    width: 176.75px;
+    border-radius: 8px;
+}
+#nomep{
+    font-size: 24px;
+    color: #000000;
+}
 #bloco{
     display: flex;
-    background-color: #FA403E;
+    background-color: #ff0000;
     flex-direction: column;
     padding: 60px;
-    margin: 0px auto;
+    margin: 60px;
     text-align: center;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 1px #00000060;
 }
-#imgjoia{
+#imgcheck{
     display: flex;
     justify-content: center;
 }
-#joia{
+#check{
     width: 170.6px;
     margin-bottom: 40px;
+}
+#videopai{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    aspect-ratio: calc(16 / 9);
+    width: 1095px;
 }
 .tudo{
     font-family: "M";
@@ -133,6 +158,14 @@ p{
 #joia{
     width: 102.4px;
     margin-bottom: 20px;
+}
+#videopai{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    aspect-ratio: calc(16 / 9);
+    width: 1095px;
 }
 .tudo{
     font-family: "M";
