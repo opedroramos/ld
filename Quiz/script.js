@@ -3,8 +3,14 @@
 
         // DEFINING THE NEXT FUNCTION
         function next(id) {
-            document.getElementsByClassName('container')[id-1].style.display = "none";
-            document.getElementsByClassName('container')[id].style.display = "block";
+            const radios = document.getElementsByName(`question${id}`);
+            radios.forEach(radio => {
+                if (radio.checked) {
+                    document.getElementsByClassName('container')[id - 1].style.display = "none";
+                    document.getElementsByClassName('container')[id].style.display = "block";
+                }
+            });
+           
         }
         //getting final result
         function result() {
@@ -20,3 +26,4 @@
             }
             alert("your score is: "+ score);
         }
+
