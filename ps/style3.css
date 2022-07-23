@@ -34,6 +34,13 @@
     font-size: 30px;
     margin-bottom: 20px;
 }
+#botaop{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+}
 .botao{
     background-color: rgb(0, 0, 0);
     text-decoration: none;
@@ -44,6 +51,7 @@
     border-radius: 16px;
     font-weight: bold;
     margin-bottom: 20px;
+    width: 50%;
 }
 #rodape3{
     display: flex;
@@ -143,7 +151,14 @@ p{
         font-family: "M";
         font-size: 20px;
         margin-bottom: 13.3px;
-        }
+    }
+    #botaop{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+        width: 100%;
+    }
     .botao{
         background-color: rgb(0, 0, 0);
         text-decoration: none;
@@ -154,6 +169,7 @@ p{
         border-radius: 16px;
         font-weight: bold;
         margin-bottom: 13.3px;
+        width: 80%;
     }
     #rodape3{
         display: flex;
