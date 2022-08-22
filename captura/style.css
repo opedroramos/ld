@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'M';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+body{
+    background-color: #FA403E;
+}
+#container{
+}
+#disppai{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#disp{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+p.videod{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+#confpai{
+    display: flex;
+    justify-content: center;
+}
+#conf{
+    width: 440px;
+}
+#h3pai{
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "M";
+
+}
+h3.cor{
+    text-align: center;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "M";
+}
+#h4pai{
+    padding: 0px;
+}
+h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "M";
+
+}
+h4.cor{
+    text-align: center;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "M";
+}
+#titlebbpai{
+}
+.titlebb{
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
+}
+#beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FA403E;
+}
+.conteudo1{
+    background-color: white;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+.imgb{
+    width: 180px;
+}
+.benefi{
+    color: #FA403E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.benef{
+    color: #FA403E;
+    font-size: 16px;
+}
+#titleddpai{
+}
+.titledd{
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
+}
+#descobrir{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FA403E;
+}
+.conteudo2{
+    background-color: #ffffff;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+.desco{
+    color: #FA403E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.desc{
+    color: #FA403E;
+    font-size: 16px;
+}
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#privacidade{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p.barra{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 768px) {
+    #container{
+    }
+    #disppai{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        flex-direction: row;
+        padding: 13.3px;
+        margin-bottom: 13.3px;
+    }
+    #disp{
+        font-size: 16.6px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        display: flex;
+    }
+    p.videod{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    #confpai{
+        display: flex;
+        justify-content: center;
+    }
+    #conf{
+        width: 240px;
+    }
+    #h3pai{
+        padding: 13.3px;
+    }
+    h3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 26.6px;
+        font-family: "M";
+    
+    }
+    h3.cor{
+        text-align: center;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 26.6px;
+        font-family: "M";
+    }
+    #h4pai{
+        padding: 0px;
+    }
+    h4{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "M";
+    
+    }
+    h4.cor{
+        text-align: center;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "M";
+    }
+    #titlebbpai{
+    }
+    .titlebb{
+        color: #ffffff;
+        background-color: #FA403E;
+        padding: 13.3px;
+    }
+    #beneficios{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 13.3px;
+        background-color: #FA403E;
+    }
+    .conteudo1{
+        background-color: white;
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    .imgb{
+        width: 120px;
+    }
+    .benefi{
+        color: #FA403E;
+        font-size: 16px;
+        margin-bottom: 6.6px;
+    }
+    .benef{
+        color: #FA403E;
+        font-size: 16px;
+    }
+    #titleddpai{
+    }
+    .titledd{
+        color: #ffffff;
+        background-color: #FA403E;
+        padding: 13.3px;
+    }
+    #descobrir{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 13.3px;
+        background-color: #FA403E;
+    }
+    .conteudo2{
+        background-color: #ffffff;
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    .desco{
+        color: #FA403E;
+        font-size: 16px;
+        margin-bottom: 6.6px;
+    }
+    .desc{
+        color: #FA403E;
+        font-size: 16px;
+    }
+    #rodape3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #3D3D3D;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 14px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 6.6px;
+    }
+    #privacidade{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 6.6px;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+    }
+    p.barra{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+}/*divisao por 1,5 */
