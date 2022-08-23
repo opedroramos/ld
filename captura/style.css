@@ -75,6 +75,24 @@ h4.cor{
     font-size: 30px;
     font-family: "M";
 }
+#h5pai{
+    padding: 0px;
+}
+h5{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "M";
+
+}
+h5.cor{
+    text-align: center;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "M";
+}
 #titlebbpai{
 }
 .titlebb{
@@ -287,6 +305,24 @@ p{
         color: #FAFA57;
         font-weight: bold;
         font-size: 20px;
+        font-family: "M";
+    }
+    #h5pai{
+        padding: 0px;
+    }
+    h5{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 13.3px;
+        font-family: "M";
+    
+    }
+    h5.cor{
+        text-align: center;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 13.3px;
         font-family: "M";
     }
     #titlebbpai{
