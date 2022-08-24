@@ -93,6 +93,31 @@ h5.cor{
     font-size: 20px;
     font-family: "M";
 }
+#formpai{
+    padding: 20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#form input{
+    font-family: "M";
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+#form .btn{
+    background-color: #000000;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 26px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
 #titlebbpai{
 }
 .titlebb{
@@ -308,7 +333,7 @@ p{
         font-family: "M";
     }
     #h5pai{
-        padding: 0px;
+    margin-top: 20px;
     }
     h5{
         text-align: center;
@@ -324,6 +349,31 @@ p{
         font-weight: bold;
         font-size: 13.3px;
         font-family: "M";
+    }
+    #formpai{
+        padding: 13.3px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+    }
+    #form input{
+        font-family: "M";
+        padding: 13.3px;
+        margin: 6.6px auto;
+        width: 70%;
+        border-radius: 5.3px;
+        border: 1px solid #ffffff;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    #form .btn{
+        background-color: #000000;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 17.3px;
+        border: none;
+        box-shadow: none;
+        cursor: pointer;
     }
     #titlebbpai{
     }
