@@ -65,33 +65,14 @@ body{
     margin: 20px;
     font-weight: 600;
 }
-.acess{
+.obrigado{
     font-family: "M";
     font-size: 20px;
-    color: #666666;
+    color: #000000;
     margin-bottom: 20px;
-    font-weight: 550;
-}
-#botaop{
-    display: flex;
-    justify-content: center;
-    margin: 0px auto;
-    text-align: center;
-    width: 100%;
-}
-.botao{
-    background-color: #25AE88;
-    text-decoration: none;
-    color:#ffffff;
-    padding: 20px;
-    font-size: 30px;
-    font-family: "M";
-    border-radius: 16px;
     font-weight: bold;
-    margin-bottom: 20px;
-    width: 50%;
 }
-.tambem{
+.spam{
     font-family: "M";
     font-size: 20px;
     color: #666666;
@@ -210,14 +191,6 @@ p{
         color: #25AE88;
         margin-bottom: 13.3px;
     }
-    #videopai{
-        display: flex;
-        justify-content: center;
-    }
-    #video{
-        aspect-ratio: calc(16 / 9);
-        width: 1095px;
-    }
     .acesso{
         font-family: "M";
         font-size: 17.3px;
@@ -225,33 +198,14 @@ p{
         margin: 13.3px;
         font-weight: 600;
     }
-    .acess{
+    .obrigado{
         font-family: "M";
         font-size: 13.3px;
-        color: #666666;
+        color: #000000;
         margin-bottom: 13.3px;
-        font-weight: 550;
-    }
-    #botaop{
-        display: flex;
-        justify-content: center;
-        margin: 0px auto;
-        text-align: center;
-        width: 100%;
-    }
-    .botao{
-        background-color: #25AE88;
-        text-decoration: none;
-        color:#ffffff;
-        padding: 13.3px;
-        font-size: 20px;
-        font-family: "M";
-        border-radius: 10.6px;
         font-weight: bold;
-        margin-bottom: 13.3px;
-        width: 80%;
     }
-    .tambem{
+    .spam{
         font-family: "M";
         font-size: 13.3px;
         color: #666666;
