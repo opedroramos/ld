@@ -173,6 +173,7 @@ h3.cor{
     animation: pulsee 1s infinite;
     animation-name: pulsee;
     cursor: pointer;
+    border: none;
 }
 @keyframes pulsee {
     50% {
@@ -981,6 +982,7 @@ p{
         width: 80%;
         animation: pulsee 1s infinite;
         animation-name: pulsee;
+        border: none;
     }
     #vagas2{
         display: flex;
