@@ -12,12 +12,13 @@ body{
 .active{
     display: block;
 }
-.paizao{
+#paizao{
     background-color: #0000008e;
     position: fixed;
+    display: none;
     width: 100vw;
     height: 100%;
-    display: none;
+    z-index: 999;
 }
 #formpai{
     padding: 20px;
@@ -568,11 +569,12 @@ p{
     color: rgb(255, 255, 255);
 }
 @media only screen and (max-width: 768px) {
-    .paizao{
+    #paizao{
         background-color: #0000008e;
         position: fixed;
         width: 100vw;
         height: 100%;
+        z-index: 999;
         display: none;
     }
     #formpai{
