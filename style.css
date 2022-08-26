@@ -62,6 +62,7 @@ h5{
     border: none;
     box-shadow: none;
     cursor: pointer;
+    margin-top: 40px;
 }
 #cadeadose{
     display: flex;
@@ -134,6 +135,7 @@ h3.cor{
 #video{
     aspect-ratio: calc(16 / 9);
     width: 1095px;
+    z-index: 0;
 }
 #som{
     display: flex;
@@ -584,7 +586,7 @@ p{
         position: absolute;
         top: 40%;
         left: 50%;
-        width: 350px;
+        width: 450px;
         height: 350px;
         transform: translate(-50%, -50%);
     }
@@ -606,7 +608,7 @@ p{
         font-family: "M";
         padding: 13.3px;
         margin: 6.6px auto;
-        width: 70%;
+        width: 65%;
         border-radius: 5.3px;
         border: 1px solid #ffffff;
         box-shadow: 0px 0px 10px 1px #00000050;
@@ -619,6 +621,7 @@ p{
         border: none;
         box-shadow: none;
         cursor: pointer;
+        margin-top: 20px;
     }
     #cadeadose{
         display: flex;
@@ -691,6 +694,7 @@ p{
     #video{
         aspect-ratio: calc(16 / 9);
         width: 1095px;
+        z-index: 0;
     }
     #som{
         display: flex;
