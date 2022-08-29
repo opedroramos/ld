@@ -1,7 +1,7 @@
-function openm(){
+/*function openm(){
     const modal = document.getElementById('paizao')
     modal.style.display="block"
-}
+}*/
 setTimeout(
     function tempo() {
         var elemento = document.querySelector('#botaopai')
@@ -41,7 +41,7 @@ setTimeout(
         elemento17.style.display = "block";
         elemento18.style.display = "flex";
         elemento19.style.display = "block";
-    }, /*tempo em milisegundos*/ 500)
+    }, /*tempo em milisegundos*/ 600000)
 /*var altura = window.screen.height
 console.log(altura)
 var largura = window.screen.width

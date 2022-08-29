@@ -9,7 +9,7 @@
 body{
     background-color: #FA403E;
 }
-.active{
+/*.active{
     display: block;
 }
 #paizao{
@@ -79,7 +79,7 @@ h5{
     color: #000000;
     font-size: 20px;
     text-align: center;
-}
+}*/
 #container{
 }
 #disppai{
@@ -572,7 +572,7 @@ p{
     color: rgb(255, 255, 255);
 }
 @media only screen and (max-width: 768px) {
-    #paizao{
+    /*#paizao{
         background-color: #0000008e;
         position: fixed;
         width: 100vw;
@@ -638,7 +638,7 @@ p{
         color: #000000;
         font-size: 13.3px;
         text-align: center;
-    }
+    }*/
     #container{
     }
     #disppai{
