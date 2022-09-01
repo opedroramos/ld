@@ -57,14 +57,13 @@ h3.cor{
     font-size: 40px;
     font-family: "M";
 }
-#videopai{
-    display: flex;
+.wistia_responsive_padding{
+    display: flex; 
     justify-content: center;
 }
-#video{
-    aspect-ratio: calc(16 / 9);
-    width: 1095px;
-    z-index: 0;
+.wistia_responsive_wrapper{
+    width: 60%;
+    height: 60%;
 }
 #som{
     display: flex;
@@ -549,14 +548,13 @@ p{
         font-size: 26.6px;
         font-family: "M";
     }
-    #videopai{
-        display: flex;
+    .wistia_responsive_padding{
+        display: flex; 
         justify-content: center;
     }
-    #video{
-        aspect-ratio: calc(16 / 9);
-        width: 1095px;
-        z-index: 0;
+    .wistia_responsive_wrapper{
+        width: 100%;
+        height: 100%;
     }
     #som{
         display: flex;
