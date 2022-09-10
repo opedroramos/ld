@@ -10,7 +10,7 @@ setTimeout(
         var elemento9 = document.getElementById('garantia')
         var elemento10 = document.getElementById('perguntas')
         var elemento11 = document.querySelector('#pagamentos')
-        var elemento12 = document.getElementById('pitch2')
+        //var elemento12 = document.getElementById('pitch2')
         var elemento13 = document.querySelector('#vagas')
         var elemento14 = document.querySelector('#botaopai2')
         var elemento15 = document.querySelector('#pagamentos2')
@@ -29,7 +29,7 @@ setTimeout(
         elemento9.style.display = "block";
         elemento10.style.display = "flex";
         elemento11.style.display = "flex";
-        elemento12.style.display = "flex";
+        //elemento12.style.display = "flex";
         elemento13.style.display = "flex";
         elemento14.style.display = "flex";
         elemento15.style.display = "flex";
