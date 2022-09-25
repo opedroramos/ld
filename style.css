@@ -32,13 +32,13 @@ p.videod{
     font-family: "M";
     color: rgb(255, 255, 255);
 }
-#confpai{
+/*#confpai{
     display: flex;
     justify-content: center;
 }
 #conf{
     width: 440px;
-}
+}*/
 #h3pai{
     padding: 20px;
 }
@@ -523,13 +523,13 @@ p{
         font-family: "M";
         color: rgb(255, 255, 255);
     }
-    #confpai{
+    /*#confpai{
         display: flex;
         justify-content: center;
     }
     #conf{
         width: 240px;
-    }
+    }*/
     #h3pai{
         padding: 13.3px;
     }
