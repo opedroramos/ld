@@ -177,6 +177,7 @@ h3.cor{
 .imgc{
     width: 60px;
     height: 60px;
+    border-radius: 60px;
 }
 .prov{
     display: flex;
@@ -670,6 +671,7 @@ p{
     .imgc{
         width: 40px;
         height: 40px;
+        border-radius: 40px;
     }
     .prov{
         display: flex;
