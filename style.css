@@ -7,14 +7,14 @@
     src: url('fonts/Montserrat-VariableFont_wght.ttf');
 }
 body{
-    background-color: #1084E7;
+    background-color: #122433;
 }
 #container{
 }
 #disppai{
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #ff0000;
     flex-direction: row;
     padding: 20px;
     margin-bottom: 20px;
@@ -73,9 +73,9 @@ h3.cor{
     display: none;
 }
 #botao{
-    background-color: rgb(0, 0, 0);
+    background-color: #00DD00;
     text-decoration: none;
-    color: #FAFA57;
+    color: #ffffff;
     padding: 20px 20px;
     font-size: 30px;
     font-family: "M";
@@ -194,7 +194,7 @@ h3.cor{
 }
 .titlebb{
     color: #ffffff;
-    background-color: #1084E7;
+    background-color: #122433;
     padding: 20px;
 }
 #beneficios{
@@ -205,7 +205,7 @@ h3.cor{
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: #1084E7;
+    background-color: #122433;
     display: none;
 }
 .conteudo1{
@@ -223,12 +223,12 @@ h3.cor{
     width: 180px;
 }
 .benefi{
-    color: #1084E7;
+    color: #122433;
     font-size: 20px;
     margin-bottom: 10px;
 }
 .benef{
-    color: #1084E7;
+    color: #122433;
     font-size: 16px;
 }
 #logodes{
@@ -253,7 +253,7 @@ h3.cor{
     flex-direction: column;
 }
 #de{
-    color: #1084E7;
+    color: #122433;
     margin-bottom: 14px;
     font-size: 20px;
 }
@@ -266,7 +266,7 @@ h3.cor{
 }
 .titledd{
     color: #ffffff;
-    background-color: #1084E7;
+    background-color: #122433;
     padding: 20px;
 }
 #descobrir{
@@ -277,7 +277,7 @@ h3.cor{
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: #1084E7;
+    background-color: #122433;
     display: none;
 }
 .conteudo2{
@@ -292,12 +292,12 @@ h3.cor{
     box-shadow: 0px 0px 10px 1px #00000050;
 }
 .desco{
-    color: #1084E7;
+    color: #122433;
     font-size: 20px;
     margin-bottom: 10px;
 }
 .desc{
-    color: #1084E7;
+    color: #122433;
     font-size: 16px;
 }
 #pitch2{
@@ -333,9 +333,9 @@ h3.cor{
     display: none;
 }
 #botao2{
-    background-color: rgb(0, 0, 0);
+    background-color: #00DD00;
     text-decoration: none;
-    color: #FAFA57;
+    color: #ffffff;
     padding: 20px 20px;
     font-size: 30px;
     font-family: "M";
@@ -370,7 +370,7 @@ h3.cor{
     min-width: 150px;
 }
 #garantia{
-    background-color: #1084E7;
+    background-color: #122433;
     padding: 80px 20px;
     display: none;
 } 
@@ -398,14 +398,14 @@ h3.cor{
     display: none;
 }
 .titleppp{
-    color:#1084E7;
+    color:#122433;
     margin-bottom: 18px;
 }
 .pergunt{
-    color: #1084E7;
+    color: #122433;
     font-family: "M";
     font-weight: bold;
-    border: 2px solid #1084E7;
+    border: 2px solid #122433;
     padding: 18px;
     margin: 0px auto;
     width: 80%;
@@ -414,7 +414,7 @@ h3.cor{
     font-size: 20px;
 }
 .pergu{
-    color: #1084E7;
+    color: #122433;
     margin-top: 10px;
     font-size: 18px;
 }
@@ -494,7 +494,7 @@ p{
     #disppai{
         display: flex;
         justify-content: center;
-        background-color: #000000;
+        background-color: #ff0000;
         flex-direction: row;
         padding: 13.3px;
         margin-bottom: 13.3px;
@@ -553,9 +553,9 @@ p{
         display: none;
     }
     #botao{
-        background-color: black;
+        background-color: #00DD00;
         text-decoration: none;
-        color: #FAFA57;
+        color: #ffffff;
         padding: 13.3px;
         font-size: 16px;
         font-family: "M";
@@ -672,7 +672,7 @@ p{
     }
     .titlebb{
         color: #ffffff;
-        background-color: #1084E7;
+        background-color: #122433;
         padding: 13.3px;
     }
     #beneficios{
@@ -683,7 +683,7 @@ p{
         align-items: center;
         flex-wrap: wrap;
         gap: 13.3px;
-        background-color: #1084E7;
+        background-color: #122433;
         display: none;
     }
     .conteudo1{
@@ -701,12 +701,12 @@ p{
         width: 120px;
     }
     .benefi{
-        color: #1084E7;
+        color: #122433;
         font-size: 16px;
         margin-bottom: 6.6px;
     }
     .benef{
-        color: #1084E7;
+        color: #122433;
         font-size: 16px;
     }
     #logodes{
@@ -731,7 +731,7 @@ p{
         flex-direction: column;
     }
     #de{
-        color: #1084E7;
+        color: #122433;
         margin-bottom: 9.3px;
         font-size: 16px;
     }
@@ -744,7 +744,7 @@ p{
     }
     .titledd{
         color: #ffffff;
-        background-color: #1084E7;
+        background-color: #122433;
         padding: 13.3px;
     }
     #descobrir{
@@ -755,7 +755,7 @@ p{
         align-items: center;
         flex-wrap: wrap;
         gap: 13.3px;
-        background-color: #1084E7;
+        background-color: #122433;
         display: none;
     }
     .conteudo2{
@@ -770,12 +770,12 @@ p{
         box-shadow: 0px 0px 10px 1px #00000050;
     }
     .desco{
-        color: #1084E7;
+        color: #122433;
         font-size: 16px;
         margin-bottom: 6.6px;
     }
     .desc{
-        color: #1084E7;
+        color: #122433;
         font-size: 16px;
     }
     #pitch2{
@@ -811,9 +811,9 @@ p{
         display: none;
     }
     #botao2{
-        background-color: black;
+        background-color: #00DD00;
         text-decoration: none;
-        color: #FAFA57;
+        color: #ffffff;
         padding: 13.3px;
         font-size: 16px;
         font-family: "M";
@@ -848,7 +848,7 @@ p{
         min-width: 150px;
     }
     #garantia{
-        background-color: #1084E7;
+        background-color: #122433;
         padding: 53.3px 13.3px;
         display: none;
     } 
@@ -876,14 +876,14 @@ p{
         display: none;
     }
     .titleppp{
-        color:#1084E7;
+        color:#122433;
         margin-bottom: 12px;
     }
     .pergunt{
-        color: #1084E7;
+        color: #122433;
         font-family: "M";
         font-weight: bold;
-        border: 1.3px solid #1084E7;
+        border: 1.3px solid #122433;
         padding: 12px;
         margin: 0px auto;
         width: 80%;
@@ -892,7 +892,7 @@ p{
         font-size: 16px;
     }
     .pergu{
-        color: #1084E7;
+        color: #122433;
         margin-top: 6.6px;
         font-size: 16px;
     }
