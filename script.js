@@ -37,4 +37,4 @@ setTimeout(
         elemento17.style.display = "block";
         //elemento18.style.display = "flex";
         elemento19.style.display = "block";
-    }, /*tempo em milisegundos*/ 500)
+    }, /*tempo em milisegundos*/ 5000)
