@@ -219,11 +219,11 @@ p.obb{
 }
 #prefci{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 #imgref{
-
+    width: 4vw;
 }
 ul#ref{
     margin: 30px auto;
@@ -231,7 +231,7 @@ ul#ref{
 }
 li.pref{
     color: #6E6E6E;
-    font-size: 18px;
+    font-size: 1.1vw;
     font-weight: initial;
     margin: 30px auto;
     font-family: "M";
@@ -744,11 +744,11 @@ p{
     }
     #prefci{
         color: #ffffff;
-        font-size: 16px;
+        font-size: 3vw;
         font-weight: bold;
     }
     #imgref{
-        width: 32px;
+        width: 6vw;
     }
     ul#ref{
         margin: 20px auto;
