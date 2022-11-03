@@ -161,7 +161,6 @@ p.obb{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
-    font-weight: initial;
     margin: 20px;
     font-weight: bold;
 }
@@ -200,6 +199,42 @@ p.obb{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
+}
+#refcien{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #F5F5F4;
+}
+#refcie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #1084E7;
+    border-radius: 60px;
+}
+#prefci{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+#imgref{
+
+}
+ul#ref{
+    margin: 30px auto;
+    list-style: none;
+}
+li.pref{
+    color: #6E6E6E;
+    font-size: 18px;
+    font-weight: initial;
+    margin: 30px auto;
+    font-family: "M";
 }
 #titlebbpai{
     display: none;
@@ -652,7 +687,6 @@ p{
         font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
         color: #000000;
-        font-weight: initial;
         margin: 13.3px;
         font-weight: bold;
     }
@@ -690,6 +724,42 @@ p{
         font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
         color: #666666;
+    }
+    #refcien{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 26.6px;
+        background-color: #F5F5F4;
+    }
+    #refcie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6.6px;
+        padding: 13.3px;
+        background-color: #1084E7;
+        border-radius: 40px;
+    }
+    #prefci{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #imgref{
+        width: 32px;
+    }
+    ul#ref{
+        margin: 20px auto;
+        list-style: none;
+    }
+    li.pref{
+        color: #6E6E6E;
+        font-size: 2.39vw; /*2,4% da largura da tela*/
+        font-weight: initial;
+        margin: 20px auto;
+        font-family: "M";
     }
     #titlebbpai{
         display: none;
