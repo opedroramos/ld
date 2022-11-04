@@ -19,6 +19,7 @@ setTimeout(
         //var elemento18 = document.querySelector('#provapai')
         var elemento19 = document.querySelector('#seta')
         var elemento20 = document.querySelector('#objeções')
+        var elemento21 = document.querySelector('#preço')
 
 
         elemento.style.display = "flex";
@@ -40,5 +41,6 @@ setTimeout(
         //elemento18.style.display = "flex";
         elemento19.style.display = "block";
         elemento20.style.display = "flex"
+        elemento21.style.display = "flex"
 
-    }, /*tempo em milisegundos*/ 500)
+    }, /*tempo em milisegundos*/ 1380000)
