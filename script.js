@@ -43,4 +43,4 @@ setTimeout(
         elemento20.style.display = "flex"
         elemento21.style.display = "flex"
 
-    }, /*tempo em milisegundos*/ 1380000)
+    }, /*tempo em milisegundos*/ 500)
