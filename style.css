@@ -74,7 +74,7 @@ h3.cor{
     gap: 10px;
 }
 .imgob{
-    width: 50px;
+    width: 3vw;
 }
 p.obb{
     color: #000000;
@@ -615,7 +615,7 @@ p{
         gap: 6.6px;
     }
     .imgob{
-        width: 32px;
+        width: 6vw;
     }
     p.obb{
         color: #000000;
