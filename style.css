@@ -57,6 +57,13 @@ h3.cor{
     font-size: 40px;
     font-family: "M";
 }
+#imgnoticia{
+}
+#imgnot{
+    max-width: 100%;
+    display: block;
+    margin: 0px auto;
+}
 #objeções{
     display: flex;
     justify-content: center;
@@ -597,6 +604,13 @@ p{
         font-weight: bold;
         font-size: 20px;
         font-family: "M";
+    }
+    #imgnoticia{
+    }
+    #imgnot{
+        max-width: 100%;
+        display: block;
+        margin: 0px auto;
     }
     #objeções{
         display: flex;
