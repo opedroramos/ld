@@ -20,6 +20,7 @@ setTimeout(
         var elemento19 = document.querySelector('#seta')
         var elemento20 = document.querySelector('#objeções')
         var elemento21 = document.querySelector('#preço')
+        var elemento22 = document.querySelector('#addcarrinho')
 
 
         elemento.style.display = "flex";
@@ -42,5 +43,6 @@ setTimeout(
         elemento19.style.display = "block";
         elemento20.style.display = "flex"
         elemento21.style.display = "flex"
+        elemento22.style.display = "block"
 
     }, /*tempo em milisegundos*/ 500)
