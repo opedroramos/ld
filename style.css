@@ -137,6 +137,16 @@ p#preç{
         transform: scale(1.00);
     }
 }
+#addcarrinho{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#addc{
+    font-family: "M";
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffffff;
+}
 #vagas{
     display: flex;
     justify-content: center;
@@ -676,7 +686,7 @@ p{
         text-decoration: none;
         color: #ffffff;
         padding: 13.3px;
-        font-size: 16px;
+        font-size: 18px;
         font-family: "M";
         border-radius: 10.6px;
         font-weight: bold;
@@ -692,6 +702,16 @@ p{
         100%{
             transform: scale(1.00);
         }
+    }
+    #addcarrinho{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #addc{
+        font-family: "M";
+        font-size: 18px;
+        font-weight: bolder;
+        color: #ffffff;
     }
     #vagas{
         display: flex;
