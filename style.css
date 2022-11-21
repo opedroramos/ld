@@ -255,13 +255,10 @@ p#preç{
     align-items: center;
     gap: 10px;
     padding: 20px;
-    background-color: #1084E7;
-    border-radius: 60px;
 }
 #prefci{
-    color: #ffffff;
-    font-size: 1.5vw;
-    font-weight: bold;
+    color: #000000;
+    font-size: 24px;
 }
 #imgref{
     width: 4vw;
@@ -270,10 +267,18 @@ p#preç{
     display: flex;
     margin: 20px 0px;
     justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
 }
 .imguni{
     display: block;
     width: 20%;
+    height: 100%;
+}
+.imguni2{
+    display: block;
+    width: 20%;
+    height: 100%;
 }
 ul#ref{
     list-style: none;
@@ -830,25 +835,30 @@ p{
         align-items: center;
         gap: 6.6px;
         padding: 13.3px;
-        background-color: #1084E7;
-        border-radius: 40px;
     }
     #prefci{
-        color: #ffffff;
-        font-size: 3vw;
-        font-weight: bold;
+        color: #000000;
+        font-size: 20px;
     }
     #imgref{
         width: 6vw;
     }
     #imagensuni{
         display: flex;
-        margin: 20px 0px;
         justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        margin: 20px -26.6px;
     }
     .imguni{
         display: block;
-        width: 25%;
+        width: 20%;
+        height: 100%;
+    }
+    .imguni2{
+        display: block;
+        width: 20%;
+        height: 100%;
     }
     ul#ref{
         list-style: none;
