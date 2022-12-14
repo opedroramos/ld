@@ -138,17 +138,6 @@ p#preç{
         transform: scale(1.00);
     }
 }
-#addcarrinho{
-    text-align: center;
-    margin-bottom: 40px;
-    display: none;
-}
-#addc{
-    font-family: "M";
-    font-size: 30px;
-    font-weight: bolder;
-    color: #ffffff;
-}
 #vagas{
     display: flex;
     justify-content: center;
@@ -718,17 +707,6 @@ p{
         100%{
             transform: scale(1.00);
         }
-    }
-    #addcarrinho{
-        text-align: center;
-        margin-bottom: 20px;
-        display: none;
-    }
-    #addc{
-        font-family: "M";
-        font-size: 18px;
-        font-weight: bolder;
-        color: #ffffff;
     }
     #vagas{
         display: flex;
