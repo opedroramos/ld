@@ -55,7 +55,7 @@ p.videod{
 }
 h3{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 22px;
     font-family: "M";
@@ -625,7 +625,7 @@ p{
     }
     h3{
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         font-weight: bold;
         font-size: 16px;
         font-family: "M";    
