@@ -34,7 +34,7 @@ body{
 #conf{
     display: block;
     margin: 0px auto;
-    max-width: 50%;
+    max-width: 40%;
 }
 p.videod{
     font-size: 20px;
@@ -55,11 +55,10 @@ p.videod{
 }
 h3{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 40px;
+    font-size: 22px;
     font-family: "M";
-
 }
 h3.cor{
     text-align: center;
@@ -626,11 +625,10 @@ p{
     }
     h3{
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 20px;
-        font-family: "M";
-    
+        font-size: 16px;
+        font-family: "M";    
     }
     h3.cor{
         text-align: center;
