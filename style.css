@@ -507,6 +507,37 @@ li.pref{
     margin-top: 10px;
     font-size: 18px;
 }
+#biografia{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+#agruparbiog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#nomebiog{
+    font-size: 18px;
+    color: #000000;
+}
+#profissão{
+    font-size: 16px;
+    color: #666666;
+}
+#imgbiog{
+    display: block;
+    max-width: 100%;
+}
+p#biog{
+    font-size: 16px;
+    color: #000000;
+}
 #rodape3{
     display: flex;
     justify-content: center;
@@ -1074,6 +1105,38 @@ p{
         color: #122433;
         margin-top: 6.6px;
         font-size: 16px;
+    }
+    #biografia{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        gap: 20px;
+        background-color: #ffffff;
+    }
+    #agruparbiog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #nomebiog{
+        font-size: 18px;
+        color: #000000;
+    }
+    #profissão{
+        font-size: 16px;
+        color: #666666;
+    }
+    #imgbiog{
+        display: block;
+        max-width: 100%;
+    }
+    p#biog{
+        font-size: 16px;
+        color: #000000;
     }
     #rodape3{
         display: flex;
